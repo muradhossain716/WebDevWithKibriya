@@ -22,5 +22,8 @@ If the call stack is not empty, the event loop waits until it is empty and place
 <p>Skope is the reign or area where the variable can get it's access.Skope depends where function is declared/written not based on where it is called.</p>
 <p>
 <p>Deep Copy: means all of the values of a variable is copied and disconnectd from original one.means any changes on new one doesnot effects old one.
-Shallow copy:means copy all the values but the values still have some connections to the original one.Means any changes on new one effects the oriinal one.<p>
+Shallow copy:means copy all the values but the values still have some connections to the original one.Means any changes on new one effects the oriinal one.<>
 <p>Hoisting:In javascript, all the variable and function declaration remains in the TDZ(the start of the skope to the line before the code is declared).So if we want to use that funcion/varible before it is declared. This behavior is called hoisting.</p>
+<p>Node/node js:Open sourse development platform for executing js code server side.
+Node:every element in the dom is called node.</p>
+<p>Npm:Node package manager is a default package manager for javascript runtime environment node js.</p>
