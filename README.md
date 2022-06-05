@@ -16,4 +16,11 @@ a='jerry';//type will automatically change;
 <p>Event loop:The event loop is a constantly running process that monitors both the callback queue and the call stack.
 If the call stack is not empty, the event loop waits until it is empty and places the next function from the callback queue to the call stack. If the callback queue is empty, nothing will happen
 </p>
+<p>Execution Context: Environment where a piece of js code is executed.It stores all the necessary information to run the code.Every function call new execution context is created.</p>
 <p>API stands for Application Programming Interface. A Web API is an application programming interface for the Web. A Browser API can extend the functionality of a web browser.Web api adds some additional functionality to js by which js works as multi threaded and non-blocking behaviour.When long running task is generated in js runtime, it exports the task to web api when the task finishes, the call back function is placed into the call back queue/even queue.now Event loop check wheather call stack is empty or not if it is empty, the function is push into the call stack and executes it.</p>
+<h3>Skope</h3>
+<p>Skope is the reign or area where the variable can get it's access.Skope depends where function is declared/written not based on where it is called.</p>
+<p>
+<p>Deep Copy: means all of the values of a variable is copied and disconnectd from original one.means any changes on new one doesnot effects old one.
+Shallow copy:means copy all the values but the values still have some connections to the original one.Means any changes on new one effects the oriinal one.<p>
+<p>Hoisting:In javascript, all the variable and function declaration remains in the TDZ(the start of the skope to the line before the code is declared).So if we want to use that funcion/varible before it is declared. This behavior is called hoisting.</p>

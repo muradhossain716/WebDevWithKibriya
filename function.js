@@ -25,3 +25,10 @@ const sum3=(a,b)=>{
             console.log('imidiately invoked arrow function')
         }
     )
+
+
+
+//callback function
+function callback(){
+    sum3();
+}
