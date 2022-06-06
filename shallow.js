@@ -5,3 +5,4 @@ const obj={
 let khair=obj;
 khair.name='kibriya';
 console.log(obj,khair);
+
