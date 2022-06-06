@@ -47,3 +47,8 @@ lili.selection()
 console.log(obj.selectedlist)
 
 //static method not in the protyotype only in the consturctor function
+//Math.trunc() Object.assign() Number.parseInt()
+Animal.hey=function(){
+    console.log('It\'s an animal');
+}
+Animal.hey()
